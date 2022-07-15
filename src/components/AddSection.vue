@@ -1,6 +1,6 @@
 <template>
   <label for="todoText"></label>
-  <input v-model="todoText" @keydown.enter="addNewTodo(todoText)" type="text" id="todoText" placeholder="Bir şeyler yazınız..." />
+  <input v-model="todoText" @keydown.enter="addNewTodo(todoText)" type="text" id="todoText" placeholder="Add todo item.." />
 </template>
 
 <script>
