@@ -1,7 +1,7 @@
 <template>
   <li class="d-flex justify-content-between align-items-center">
     <span>{{ item.text }}</span>
-    <button @click="deleteItem(item)" class="sm red">Sil</button>
+    <button @click="deleteItem(item)" class="sm red">Remove</button>
   </li>
 </template>
 <script>
